@@ -1,0 +1,63 @@
+html, body {
+  position: relative;
+  height: 100%; }
+
+.parallax {
+  background-image: url("../images/main-pic.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+
+#nav {
+  transition: all 0.5s ease;
+  padding: 20px; }
+  #nav a.navbar-brand {
+    color: white;
+    font-size: xx-large; }
+
+ul.navbar-nav li a {
+  color: white !important;
+  text-decoration: none;
+  transition: all 0.5s ease; }
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
+  color: grey !important; }
+
+.black-nav {
+  background-color: rgba(20, 20, 20, 0.9);
+  padding-top: 3px;
+  padding-bottom: 3px; }
+
+.project-img {
+  height: auto;
+  max-width: 100%; }
+
+.project-zoom {
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+@media screen and (max-width: 767px) {
+  .navbar-toggler:focus {
+    outline: none; }
+  #collapseNavbar {
+    background-color: rgba(20, 20, 20, 0.9);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px 20px;
+    box-shadow: 5px 1px 2px black; }
+    #collapseNavbar ul.navbar-nav a {
+      text-align: center;
+      font-size: medium;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      #collapseNavbar ul.navbar-nav a i {
+        font-size: xx-large; }
+  #btnGetInTouch {
+    font-size: larger !important; } }
